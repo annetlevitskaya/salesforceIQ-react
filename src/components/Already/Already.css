@@ -1,0 +1,17 @@
+.already {
+    background-color: #324a62;
+    padding: 16px 0 21px 0;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.already__text {
+    color: #fff;
+    font-weight: bold;
+}
+
+.already__link {
+    color: #5da49c;
+    text-decoration: none;
+    margin-left: 5px;
+}

@@ -1,0 +1,58 @@
+.review {
+    background-color: #eceff6;
+    padding: 82px 0;
+    margin: 132px 0;
+}
+
+.review__img {
+    width: 60px;
+}
+
+.review__caption {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 34px;
+    width: 75%;
+    margin: 45px auto;
+    line-height: 46px;
+}
+
+.review__people {
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin: 0 auto;
+}
+
+.review__people_item {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.review__people_item:hover .review__people_img {
+    border: 2px solid #fff;
+}
+
+.review__people_item:hover .review__people_text {
+    color: #6ab7a3;
+}
+
+.review__people_img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: gray;
+    border: 2px solid transparent;
+}
+
+.review__people_text {
+    text-align: initial;
+    margin-left: 20px;
+    font-weight: 500;
+    color: #8590a1;
+}
+
+.review__people_text-job {
+    font-size: 15px;
+}

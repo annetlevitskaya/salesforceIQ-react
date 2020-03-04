@@ -1,0 +1,48 @@
+.download {
+    margin-bottom: 116px;
+}
+
+.download__question {
+    padding-top: 10px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+    color: #989ba3;
+}
+
+.download__caption {
+    font-size: 33px;
+    font-weight: 700;
+    color: #233246;
+    padding: 4px 0 0 0;
+    letter-spacing: 0.4px;
+}
+
+.download__buttons_box {
+    display: flex;
+    justify-content: space-between;
+    width: 43%;
+    margin: 45px auto;
+}
+
+.download__btn_img {
+    width: 30px;
+}
+
+.download__btn {
+    background-color: #fff;
+    border: 3px solid #808fa0;
+    color: #808fa0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download__btn_text {
+    font-weight: 600;
+    font-size: 16px; 
+    margin-left: 8px;
+}
